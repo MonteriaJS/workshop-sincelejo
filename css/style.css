@@ -1,0 +1,134 @@
+/* Definimos una fuente importada desde google fonts */
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300|Roboto+Condensed:400,700&display=swap");
+
+/* Modificamos el body de nuestro portafolio*/
+
+body {
+  background-color: #1a1a1a;
+  background-image: url("../images/classy-fabric.png");
+  color: #808080;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/*Creamos una clase container para que todo contenga dentro*/
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+header{
+  min-height: 10vh;
+}
+
+/* Moldificamos el color del brand (logo) que esta en el header */
+.navbar-brand {
+  color: #276597 !important; /* Usamos !important para hacer prevalecer el valor de la propidad sobre algún otro */
+}
+
+/* Damos un espacio los items del menú */
+.nav-item {
+  margin: 0px 0px 0px 30px;
+}
+
+/* Modificamos el color de los items de la barra de navegación */
+.nav-link {
+  color: #a1a1a1 !important;
+  font-size: 20px;
+}
+
+/* Defimos como se vera nuestros enlaces cuando se hace hover y cuado esta seleccionado el enlace*/
+.nav-link:hover,
+.selected {
+  color: #276597 !important;
+  transition: all 0.7s;
+}
+
+section{
+  min-height: 80vh;
+}
+
+
+/* Podemos crear una ciruclo que contendra nuestra imagen */
+.big-circle {
+  border: 2px inset #276597;
+  border-radius: 50%;
+  max-width: 380px;
+  max-height: 380px;
+  margin: 30px auto;
+}
+
+/*Color de nuestro titulo*/
+
+.text-title{
+  color: #276597;
+}
+
+/*Color de nuestro sub-titulo*/
+
+.text-subtitle {
+  color: #a1a1a1;
+}
+
+/*Proiedades visuales de nuestro parrafo*/
+.paragraph {
+  font-size: 1.1em;
+  margin: 50px 0px;
+}
+
+/* Linea hr */
+hr{
+  border-color: #212121;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+
+code{
+  color: #276597;
+}
+
+/* propiedades de nuestra imagen*/
+
+img.avatar {
+  border: 4px solid #276597;
+  border-radius: 50%;
+  width: 340px;
+  height: 340px;
+  margin: 20px;
+}
+
+/* Seccion del footer */
+
+footer{
+  min-height: 10vh;
+}
+
+/* Estilos para los enlaces de los iconos */
+a {
+  color: #276597;
+  transition: all 0.7s;
+}
+
+a:hover {
+  color: #a1a1a1;
+}
+
+.box-icon {
+  border: 1px solid #276597;
+  border-radius: 3px;
+  margin: 5px auto;
+  padding: 2px 0px;
+  width: 35px;
+  text-align: center;
+  box-sizing: border-box;
+} 
+
+
+/*Seccion del Portafolio */
+
+/* Modificamos un poco el estilo de la card de acuero a nuestro diseño */
+.card {
+  border: 1px solid #212121;
+  background-color: transparent !important;
+  margin: 15px auto 10px auto;
+}
