@@ -1,7 +1,7 @@
 /* Definimos una fuente importada desde google fonts */
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300|Roboto+Condensed:400,700&display=swap");
 
-/* Modificamos el body de nuestro portafolio*/
+/* Modificamos el body de nuestro portafolio */
 
 body {
   background-color: #1a1a1a;
@@ -122,10 +122,13 @@ a:hover {
   width: 35px;
   text-align: center;
   box-sizing: border-box;
-} 
+}
 
 
 /*Seccion del Portafolio */
+#portfolio {
+  display: none;
+}
 
 /* Modificamos un poco el estilo de la card de acuero a nuestro diseño */
 .card {
